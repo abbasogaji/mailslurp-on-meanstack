@@ -1,0 +1,38 @@
+{
+  "name": "mailslurp-on-meanstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abbasogaji/mailslurp-on-meanstack.git"
+  },
+  "author": "Abbas Ogaji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbasogaji/mailslurp-on-meanstack/issues"
+  },
+  "homepage": "https://github.com/abbasogaji/mailslurp-on-meanstack#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "expect": "^24.9.0",
+    "jest": "^24.8.0",
+    "mailslurp-client": "^6.5.0",
+    "node-html-parser": "^1.1.16",
+    "node-mocks-http": "^1.7.6",
+    "validator": "^11.1.0"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.6.9",
+    "request": "^2.88.0",
+    "request-json": "^0.6.4",
+    "url": "^0.11.0"
+  }
+}
